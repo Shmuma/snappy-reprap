@@ -138,7 +138,7 @@ filament_diam        =   1.75; // mm
 // This is the slop needed to make parts fit more exactly, and might be
 // printer and slicer dependant.  Printing a slop calibration block should
 // help dial this setting in for your printer.
-printer_slop = 0.20;  // mm
+printer_slop = 0.25;  // mm
 gear_backlash = 0;  // mm
 
 
