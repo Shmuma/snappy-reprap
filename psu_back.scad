@@ -31,7 +31,7 @@ module psu_back() {
     }
 
     // back connector to the main rail
-    translate([(psu_width + joiner_length - wall_thick)/2, rail_width/2, rail_height/2]) {
+    translate([(psu_width + joiner_length - wall_thick)/2, rail_width/2 - joiner_width, rail_height/2]) {
 	 zrot(-90)    
 	 back(joiner_length)
 	 joiner(h=rail_height, w=joiner_width, l=joiner_length, a=joiner_angle);
