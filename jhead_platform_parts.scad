@@ -369,13 +369,13 @@ jhead_platform_parts();
 
 module jhead_extruder_hole() {
      jhead_d = 15;
-     jhead_thick = 1;
-     up(1.5+jhead_thick/2) {
+     jhead_thick = 1.5;
+     up(1+jhead_thick/2) {
 	  cylinder(h=jhead_thick, d=jhead_d, center=true);
 	  xmove(jhead_d/2)
 	  cube(size=[jhead_d, jhead_d, jhead_thick], center=true);
      }
-     up(4 + jhead_thick/2) {
+     up(3.5 + jhead_thick/2) {
 	  cylinder(h=jhead_thick, d=jhead_d, center=true);
 	  xmove(jhead_d/2)
 	  cube(size=[jhead_d, jhead_d, jhead_thick], center=true);
