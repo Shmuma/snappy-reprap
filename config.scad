@@ -67,8 +67,8 @@ hbp_hole_length = 208.5; // mm
 hbp_screwsize   =   3;   // mm
 
 // Standard 200mm square borosilicate glass build platform
-glass_width     = 200;   // mm
-glass_length    = 214;   // mm
+glass_width     = 200-4;   // mm
+glass_length    = 214-4;   // mm
 glass_thick     =   3;   // mm
 //glass_thick     =   4.6;   // mm  3mm glass and 1.6mm heated bed.  Print supports in ABS.
 
